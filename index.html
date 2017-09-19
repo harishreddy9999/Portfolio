@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- The scrollable area -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!-- Navigation Part -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Harish Reddy</a>
+      </div>
+      <div class="collapse navbar-collapse myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a href="#home">
+              <span class="glyphicon glyphicon-home"></span> Home</a>
+          </li>
+          <li>
+            <a href="#experience">
+              <span class="glyphicon glyphicon-info-sign"></span> Skills and Projects</a>
+          </li>
+          <li>
+            <a href="#portfolio">
+              <span class="glyphicon glyphicon-briefcase"></span> Portfolio</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <h1>Harish Reddy</h1>
+    
+    <img class="img-responsive img-circle displayed me" src="images/3.jpg">
+    <div class="img-text">
+      <p>My name is Harish Reddy. I'm currently pursuing dual degree in Information Technology from ABV-IIITM Gwalior which is of national importance.I have been learning various web technologies since 2 years and now looking for Jr. Position either front, back or full stack.</p>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <h1>My Skills and Projects</h1>
+      
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Projects</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+          <div class="panel-body">Aug’16 - Present
+              <p>Automatic Tagging Using Multi-label
+Classification System</p>
+              <ul>
+                <li>Multi-label classification system that
+automatically tags imporatnt words.</li>
+
+              </ul>
+            </div>
+          <div class="panel-body">May’16 - July’16
+              <p>Missing Children Application for the safety of samll children using vaious Face Recognition Libraries.</p>
+              <ul>
+                <li>To run face recognition software on largely gathered database of children who have lost their homes.</li>
+
+              </ul>
+            </div>
+
+               <div class="panel-body">March’14 - May’14
+              <p>Mess Maintainance System in Hostels as a part of System Analysis and Design subject.</p>
+              <ul>
+                <li>Web Development</li>
+
+              </ul>
+            </div>
+            <div class="panel-body">May’15 - Sep’15
+              <p>Augmentation of Security in Cloud from Android Appliance using Face Recognition (Research Project).</p>
+              <ul>
+                <li>Deployment of Cloud</li>
+                <li>Face Recognition Software</li>
+                <li>Face Recognition Software to be run on Cloud deployed while accessing an android device</li>
+              </ul>
+              </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Skills</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">Technical Skills
+             
+              <ul>
+                
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+                <li>Jquery</li>
+                <li>Python</li>
+
+               
+                <li>C++</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h1>Portfolio</h1>
+    <p>Here are some of my most recent Projects!</p>
+    <p>From older to newer</p>
+    <div class="container">
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <a href="https://github.com/harishreddy9999/Random-quote-generator-using-js" class="thumbnail" target="_blank">
+              <img src="images/4.PNG" alt="Random Quote Generator" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#random">Random Quote Generator</h2>
+            <div id="random" class="collapse">
+              <p class="gray-text">This site will display random quotes using the <a href="http://forismatic.com/" target="_blank" style="color: orange">Forismatic</a> API. You will then have the option to tweet it and share with others.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <a href="https://github.com/harishreddy9999/Responsive-Restaurant-website" class="thumbnail" target="_blank">
+              <img src="images/7.PNG" alt="Local Weather App" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#weather">Dharani Bar and Restaurant</h2>
+            <div id="weather" class="collapse">
+              <p class="gray-text">This website is about a Bar and restaurant in hyderabad named Dharani. It provides information about the restaurant and bar like pricing , quality,contact details,offers etc.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3,Javascript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+
+      <div class="row">
+        
+        <div class="col-md-6">
+          <div class="well">
+            <a href="https://github.com/harishreddy9999/Calculator" class="thumbnail" target="_blank">
+              <img src="images/5.PNG" alt="Calculator" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#calc">Calculator</h2>
+            <div id="calc" class="collapse">
+              <p class="gray-text">This calculator will allow you to do chain operations and get a proper answer thanks to the use of parentheses for more complex operations. It does cover the basic features of a calculator too. </p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2</p>
+            </div>
+          </div>
+        </div>
+      
+
+      
+        <div class="col-md-6">
+          <div class="well">
+            <a href="https://github.com/harishreddy9999/Javascript-Wikipedia-Viewer" class="thumbnail" target="_blank">
+              <img src="images/6.PNG" alt="Wikipedia Searcher" class="project-img"></a>
+            <h2 class="gray-text" data-toggle="collapse" data-target="#wiki">Wikipedia Searcher</h2>
+            <div id="wiki" class="collapse">
+              <p class="gray-text">This app will use the wikipedia API to produce search on the fly on their database. You can also click a button to get a random wiki article. The app can easily be adjusted for any other MediaWiki installation.</p>
+              <p class="gray-text">
+                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2</p>
+            </div>
+          </div>
+        </div>
+       
+
+      
+      </div>
+      
+
+
+
+      
+
+    </div>
+  </section>
+
+  
+  
+
+  <!-- The footer -->
+  <footer>
+    <p>Copyright © Harish Reddy. All Rights Reserved</p>
+ 
+  </footer>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+    
+
+</body>
+</html>
